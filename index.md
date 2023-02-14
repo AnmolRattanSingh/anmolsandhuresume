@@ -16,4 +16,4 @@ Below are all the projects I have worked on recently.
 - [Huffman Encoding](https://github.com/VedaantKuchhal/Huffman), implementation in GoLang.
 - [Hole-in-the-camera](https://olincollege.github.io/hole-in-the-camera/) - Digital version of the game show ["Hole in the Wall"](https://en.wikipedia.org/wiki/Hole_in_the_Wall_(American_game_show)) implemented using OpenCV, pygame, and OpenPose.
 - [InstaMile](https://sites.google.com/view/instamile/home?authuser=0) - Pedometer built using React-Native to calculate a Fast-Fourier transform on phone accelerometer data to analyze step data.
-- [2D RPG exploration](https://github.com/lilibaker/outmaine/) game being built using Unity to teach young kids about gender identities in collaboration with the non-profit Out Maine.
+- [2D RPG exploration](https://drive.google.com/file/d/1l2sjOOWT9BFI3cXTwW9fSGwUXtVfXrzv/view?usp=share_link) game being built using Unity to teach young kids about gender identities in collaboration with the non-profit Out Maine.
