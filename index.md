@@ -8,7 +8,7 @@ layout: default
 
 Hello! I am Anmol Rattan Singh Sandhu a sophomore studying Engineering with Computing at the <a href="https://www.olin.edu">Olin College of Engineering</a>. I'm an aspiring Computer Scientist with a passion to use platforms for solving social and environmental problems.
 
-Below are all the projects I have worked on recently.
+Below are some of the projects I have worked on recently.
 
 ## Portfolio
 - [Branch and bound deep dive](https://drive.google.com/file/d/1WfjDEiEAgP5eJa9nEzbPKYQlnItBhuQb/view?usp=sharing) - an in-depth analysis of the [branch and bound](https://en.wikipedia.org/wiki/Branch_and_bound#Optimization_Example) optimization algorithm with a focus on its medical applications and theoretical limitations such as **parallelization**. This paper was written for my **advanced algorithms** class.
