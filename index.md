@@ -11,6 +11,7 @@ Hello! I am Anmol Rattan Singh Sandhu a sophomore studying Engineering with Comp
 Below are some of the projects I have worked on recently.
 
 ## Portfolio
+- [Simulated Annealing Sudoku Solver](https://github.com/AnmolRattanSingh/sudoku-solver) - a **Python** implementation of the [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing) algorithm to solve Sudoku puzzles.
 - [RSA Encryption deep dive](https://drive.google.com/file/d/1ALYc75TGjUVUBroIIlnw8Xg43m9ouk4j/view?usp=share_link) - analysis of the [RSA encryption algorithm](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) with a focus on its theoretical limitations such as **quantum computing**. This paper was written for my **advanced algorithms** class.
 - [Branch and bound deep dive](https://drive.google.com/file/d/1WfjDEiEAgP5eJa9nEzbPKYQlnItBhuQb/view?usp=sharing) - an in-depth analysis of the [branch and bound](https://en.wikipedia.org/wiki/Branch_and_bound#Optimization_Example) optimization algorithm with a focus on its medical applications and theoretical limitations such as **parallelization**. This paper was written for my **advanced algorithms** class.
 - [Whack-A-Mole](https://whackamole.yammer.me), arcade game replica. Built using pneumatic solenoids controlled by an **Arduino** connected to a **Raspberry Pi** to a **React.js** web-app display inside a wooden arcade machine.
