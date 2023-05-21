@@ -17,10 +17,9 @@ body {
 a {
     text-decoration: none;
     color: $accent;
-    text-decoration: underline;
 }
 a:hover {
-    color: blue;
+    text-decoration: underline;
 }
 hr {
     border: 0;
