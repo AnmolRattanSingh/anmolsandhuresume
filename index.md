@@ -12,6 +12,7 @@ Below are some of the projects I have worked on recently.
 
 ## Portfolio
 
+- [Robot_localization_cpp](https://github.com/richardli03/robot_localization_cpp) - implementation of a particle filter algorithm for localizing a robot in a known map using **Lidar** data. Built in **ROS** and **C++**.
 - [Multiagent Search and Rescue](https://sites.google.com/view/comprobo23-search-and-rescue/home) - a centralized multiagent system designed to efficiently search a space to find a target. Built in **ROS** and **Python**.
 - [CNN-MNIST](https://github.com/mtong1/CNN-MNIST) - a **Python** implementation of a **Convolutional Neural Network** to classify handwritten digits from the [MNIST dataset](http://yann.lecun.com/exdb/mnist/). Implemented using only **NumPy**.
 - [Clipboard-Transformer](https://github.com/olincollege/clipboard-transformer) - a simple tool to transform text in your clipboard. Implemented in **C++**.
