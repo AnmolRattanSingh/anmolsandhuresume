@@ -27,4 +27,3 @@ Below are some of the projects I have worked on recently.
 - [Huffman Encoding](https://github.com/VedaantKuchhal/Huffman), implementation in **GoLang**.
 - [Huffman Encoding](https://github.com/AnmolRattanSingh/Huffman-Encoding-CPP), implementation in **C++**.
 - [InstaMile](https://sites.google.com/view/instamile/home?authuser=0) - Pedometer built using **React-Native** to calculate a **Fast-Fourier transform** on phone accelerometer data to analyze step data.
-- [2D RPG exploration](https://drive.google.com/file/d/1l2sjOOWT9BFI3cXTwW9fSGwUXtVfXrzv/view?usp=share_link) game being built using **Unity** to teach young kids about gender identities in collaboration with the non-profit Out Maine.
