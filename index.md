@@ -24,6 +24,6 @@ Below are some of the projects I have worked on recently.
 - [Whack-A-Mole](https://whackamole.yammer.me), arcade game replica. Built using pneumatic solenoids controlled by an **Arduino** connected to a **Raspberry Pi** to a **React.js** web-app display inside a wooden arcade machine.
 - [Hole-in-the-camera](https://olincollege.github.io/hole-in-the-camera/) - Digital version of the game show ["Hole in the Wall"](https://en.wikipedia.org/wiki/Hole_in_the_Wall_(American_game_show)) implemented using **OpenCV**, **PyGame**, and **OpenPose**.
 - [Image matching algorithms benchmarking](https://github.com/occamLab/MatchingBenchmarking), on data collected from co-designers of the [Clew app](http://www.clewapp.org). Benchmarks popular **OpenCV** algorithms against the **neural network** [SuperGlue](https://arxiv.org/abs/1911.11763) using **Lidar** data as ground truth.
-- [Huffman Encoding](https://github.com/VedaantKuchhal/Huffman), implementation in **GoLang**.
-- [Huffman Encoding](https://github.com/AnmolRattanSingh/Huffman-Encoding-CPP), implementation in **C++**.
+- [Huffman Encoding](https://github.com/VedaantKuchhal/Huffman), a compression algorithm implemented in **GoLang**.
+- [Huffman Encoding](https://github.com/AnmolRattanSingh/Huffman-Encoding-CPP), a compression algorithm implemented in **C++**.
 - [InstaMile](https://sites.google.com/view/instamile/home?authuser=0) - Pedometer built using **React-Native** to calculate a **Fast-Fourier transform** on phone accelerometer data to analyze step data.
