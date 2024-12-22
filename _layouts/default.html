@@ -67,17 +67,22 @@
             <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">Anmol Rattan Singh Sandhu</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
-                {% if x.name == "Resume" %}
-                <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
-                    {% else %}
-                <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
-                    {% endif %}
-                    {% if forloop.last == false %}
+                <li class="alignable pull-left nav-list">
+                  {% if x.name == "Resume" or x.link contains "http" %}
+                    <!-- For external links (like Resume), just use x.link directly. -->
+                    <a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
+                  {% else %}
+                    <!-- For internal links, prepend site.baseurl and a slash. -->
+                    <a href="{{ site.baseurl }}/{{ x.link }}">{{ x.name }}</a>
+                  {% endif %}
+              
+                  {% unless forloop.last %}
                     /
-                    {% endif %}
+                  {% endunless %}
                 </li>
                 {% endfor %}
-            </ul>
+              </ul>
+              
         </div>
         <div style="clear:both"></div>
         <hr>

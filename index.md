@@ -10,4 +10,5 @@ Hello! I am Anmol Rattan Singh Sandhu a senior studying Engineering with Computi
 
 Below are some of the projects I have worked on recently.
 
+## Projects
 {% include project-grid.html %}
