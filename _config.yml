@@ -1,6 +1,6 @@
-title: Anmol Rattan Singh Sandhu
+title: Anmol Sandhu
 url: "https://anmol.dev"
-baseurl: "/"
+baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -8,17 +8,21 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
 
 sass:
     style: compressed
     sass_dir: _sass
 
+collections:
+  projects:
+    output: true
+
 nav:
     - name: "About"
-      link: "/"
+      link: ""
     - name: "Resume"
       link: "resume.pdf"
+    - name: "Projects"
+      link: "projects"
     - name: "Contact"
       link: "contact"
