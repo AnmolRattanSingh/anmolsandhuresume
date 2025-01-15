@@ -8,15 +8,19 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: $primary-bg;
 }
 body {
     margin: 0;
-    font-family: "Inconsolata";
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    // font-family: "Inconsolata";
     height: 100%;
+    background-color: $primary-bg;
+    color: black;
 }
 a {
     text-decoration: underline;
-    color: $accent;
+    color: rgb(42, 42, 244);
 }
 a:hover {
     text-decoration: none;
@@ -24,7 +28,7 @@ a:hover {
 hr {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -34,7 +38,7 @@ hr {
 
 #author-name {
     font-size: 29px;
-    color: #272727;
+    color: black;
     display: inline-block;
 }
 .navbar {
@@ -67,71 +71,25 @@ hr {
 .container {
     max-width: $max-width;
     margin: auto;
+    background-color: $content-bg;
+    padding: 2rem;
+    border-radius: 8px;
 }
 .wrapper {
     min-height: 100%;
+    padding: 0 20px;
 }
 
 /* Institute Image */
 
 #ins-logo {
-	margin: auto;
-	display: block;
-	max-height: 100px;
-	text-align: center;
+    margin: auto;
+    display: block;
+    max-height: 100px;
+    text-align: center;
 }
 
-/* Mobile */
-
-@media (max-width: 800px) {
-    .container {
-        max-width: $med-width;
-        transition: 0.3s ease all;
-    }
-}
-
-@media (max-width: 650px) {
-    .container {
-        max-width: 83%;
-    }
-    .navbar-ul {
-        margin-top: 5px;
-    }
-}
-
-@media (max-width: 500px) {
-	.navbar {
-		text-align: center;
-		padding: 50px 0px 0px 0px;
-	}
-	#author-name {
-		width: 100%;
-		float: none;
-	}
-	#navlist {
-		padding: 10px 0 10px 0;
-		margin: 0;
-		display: block;
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
-	#navlist li.alignable {
-		display: inline-block;
-	}
-	#navlist li.pull-left {
-		float: none;
-	}
-	#navlist li.nav-list {
-		margin: 0;
-	}
-}
-
-@import "typography";
-@import "tables";
-
-
-/* In css/main.css */
+/* Project Grid */
 
 .project-grid {
     display: grid;
@@ -148,6 +106,7 @@ hr {
     display: flex;
     flex-direction: column;
     height: 100%;
+    background-color: $card-bg;
 }
 
 .project-card:hover {
@@ -177,6 +136,7 @@ hr {
 .project-info h3 {
     margin: 0 0 0.5rem 0;
     font-size: 1.25rem;
+    color: #272727;
 }
 
 .project-info p {
@@ -212,9 +172,58 @@ hr {
     color: white;
 }
 
+/* Mobile */
+
+@media (max-width: 800px) {
+    .container {
+        max-width: $med-width;
+        transition: 0.3s ease all;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 83%;
+    }
+    .navbar-ul {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+    }
+    #author-name {
+        width: 100%;
+        float: none;
+    }
+    #navlist {
+        padding: 10px 0 10px 0;
+        margin: 0;
+        display: block;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #navlist li.alignable {
+        display: inline-block;
+    }
+    #navlist li.pull-left {
+        float: none;
+    }
+    #navlist li.nav-list {
+        margin: 0;
+    }
+}
+
 @media (max-width: 768px) {
     .project-grid {
         grid-template-columns: 1fr;
         padding: 1rem;
     }
 }
+
+@import "typography";
+@import "tables";
