@@ -21,7 +21,7 @@ nav:
     - name: "About"
       link: ""
     - name: "Resume"
-      link: "AnmolResume.pdf"
+      link: "resume"
     - name: "Projects"
       link: "projects"
     - name: "Research"
